@@ -59,7 +59,7 @@ class _MinhaMotivacaoState extends State<MinhaMotivacao> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               SizedBox(
-                height: 50,
+                height: 20,
               ),
               Container(
                 child: Card(
@@ -72,7 +72,7 @@ class _MinhaMotivacaoState extends State<MinhaMotivacao> {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 25,
               ),
               Container(
                 child: Card(
@@ -83,7 +83,7 @@ class _MinhaMotivacaoState extends State<MinhaMotivacao> {
                 height: 300,
               ),
               SizedBox(
-                height: 30,
+                height: 25,
               ),
               RaisedButton(
                 color: Colors.green,
@@ -122,7 +122,7 @@ class _MinhaMotivacaoState extends State<MinhaMotivacao> {
       //Não começou a tocar
       return IconButton(
           icon: Icon(Icons.volume_off, //ícone "sem som"
-              size: 50),
+              size: 30),
           onPressed: () {
             //Quando premido, calcula música e começa a tocar
             setState(() {
@@ -137,7 +137,7 @@ class _MinhaMotivacaoState extends State<MinhaMotivacao> {
       //Já está a tocar
       return IconButton(
           icon: Icon(Icons.volume_up, //ícone "com som"
-          size: 50),
+          size: 30),
           onPressed: () {
             setState(() {
               //Quando premido, pára de tocar

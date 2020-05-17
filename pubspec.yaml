@@ -26,7 +26,7 @@ dependencies:
   cupertino_icons: ^0.1.3
   shake: ^0.1.0
   assets_audio_player: ^1.4.6+1
-
+  flutter_native_splash: ^0.1.9
 
 dev_dependencies:
   flutter_test:
@@ -72,3 +72,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_native_splash:
+  image: assets/splashscreen.png
+  color: "#ffffff"
